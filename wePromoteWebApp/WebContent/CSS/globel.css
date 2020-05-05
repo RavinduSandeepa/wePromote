@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+.bg{
+	background: url("../Images/img4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.form-container{
+	position: absolute;
+	top:10vh;
+	background: #000000;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}

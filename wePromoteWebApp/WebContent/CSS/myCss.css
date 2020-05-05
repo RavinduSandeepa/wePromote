@@ -1,0 +1,103 @@
+@charset "ISO-8859-1";
+
+.heading {
+	color: white;
+	background-color: none;
+	text-align : left;
+	padding : 15px;
+	font-family : Trebuchet MS;
+}
+
+.headImage {
+	background-color: none;
+	padding : 15px;
+}
+
+.userImage {
+	background-color: none;
+	padding : 25px;
+}
+
+.tablink {
+    background-color: none;
+    color: white;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 40px;
+	font-family : Trebuchet MS;
+    font-size: 20px;
+    width: 17%;
+	text-decoration: none;
+	
+}
+
+.tablink:hover {
+    color: #A7A7A7;	
+    /*background-color: #F84848;*/
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+	box-sizing: border-box;
+    border: 1.3px solid #FF5B5B;
+    border-radius: 4px;
+	padding:4px 4px;
+}
+
+.topnav input[type=text] {
+    float: center;
+    padding: 14px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.submitbutton {
+	font-family: Trebuchet MS;
+	background-color: white;
+}
+
+.sidelist {
+	color: #FF3B3B;
+	padding: 15px;
+	border: 1px;
+	font-family : Trebuchet MS;
+	font-size: 20px;
+}
+	
+.foot{
+    text-align:center;
+    padding:20px;
+    background-color:white;
+    opacity: 0.8;
+    background-size: 100%;
+    color:black;
+    position:sticky;
+    top: 805px;
+    width:96.7%;
+    margin: 5px;
+	font-family : Trebuchet MS;
+}
+
+.footlogo{
+    position:absolute;
+    bottom:30px;
+    left:15px;
+	font-family : Trebuchet MS;
+}
+
+.footlogo img{
+    width: 50;
+    height:50;
+}
+
+.foot a{
+    color:#FF3B3B;
+    font-weight: 900;
+    padding:8px 8px;
+	text-decoration: none;
+}

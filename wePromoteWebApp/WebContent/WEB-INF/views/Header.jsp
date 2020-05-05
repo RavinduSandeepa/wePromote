@@ -12,12 +12,11 @@
             <header>
                     <nav>
                     	<div class="dropdown">
- 							<a href=""> <button class="dropbtn">Login</button></a>
+ 							<form action="LogoutServlet" method="post">
+ 								<button class="dropbtn">Logout</button>
+ 							</form>
+ 							
 						</div>
-                    	<div class="dropdown">
- 							<a href=""> <button class="dropbtn">SignUp</button></a>
-						</div>
-                    
                         <div class="dropdown">
  						 <button class="dropbtn">Employee</button>
   							<div class="dropdown-content">
@@ -45,7 +44,7 @@
 	
 						
 						 <div class="dropdown">
- 						 <button class="dropbtn">Profile</button>
+ 						 	<button class="dropbtn">Profile</button>
   						
 						</div>
 						
@@ -55,7 +54,7 @@
                             <a href="#"><span class="text">&nbsp;Menu</span></a>
                         </div>
                     </nav>
-                    <a class="logo" href="#">We Promote</a>
+                    <a class="logo" href="index.jsp">We Promote</a>
                
                 </header>
                <script src="/front.js"></script>
